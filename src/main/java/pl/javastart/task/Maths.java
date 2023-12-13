@@ -2,17 +2,11 @@ package pl.javastart.task;
 
 public class Maths {
     boolean isEven(int arg) {
-        if (arg % 2 > 0) {
-            return false;
-        }
-        return true;
+        return arg % 2 == 0;
     }
 
     boolean isOdd(int arg) {
-        if (arg % 2 > 0) {
-            return true;
-        }
-        return false;
+        return arg % 2 != 0;
     }
 
     double circleField(double radius) {
